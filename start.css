@@ -1,0 +1,24 @@
+@media only screen and (max-width: 450px) {
+.youtubePic{
+  position: absolute;
+  width: 175px;
+  height: 165px;
+  left: calc(50% - 174px/2 - 98px);
+  top: 200px;
+  background: url(youtube.png);
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.BlazendaryPic{
+  /* blazendary 1 */
+  position: absolute;
+  width: 175px;
+  height: 165px;
+  left: calc(50% - 174px/2 + 100px);
+  top: 200px;
+  background: url(blazendary.png);
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+}
