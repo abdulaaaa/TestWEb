@@ -1,11 +1,10 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 430px) {
 .youtubePic{
   position: absolute;
   width: 175px;
   height: 165px;
   left: calc(50% - 174px/2 - 98px);
   top: 200px;
-  background: url(youtube.png);
   box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
@@ -14,11 +13,50 @@
   position: absolute;
   width: 175px;
   height: 165px;
-  left: calc(50% - 174px/2 + 100px);
+  left: calc(50% - 175px/2 + 100px);
   top: 200px;
-  background: url(blazendary.png);
   box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
 
 }
+
+@media only screen and (max-width: 390px) {
+.youtubePic{
+  /* youtube 1 */
+  position: absolute;
+  width: 165px;
+  height: 155px;
+  left: calc(50% - 165px/2 - 94px);
+  top: 200px;
+  background: url(youtube.png);
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.BlazendaryPic{
+  /* blazendary 1 */
+  position: absolute;
+  width: 165px;
+  height: 155px;
+  left: calc(50% - 165px/2 + 95px);
+  top: 200px;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+}
+
+@media only screen and (max-width: 370px) {
+.BlazendaryPic{
+  /* blazendary 1 */
+  position: absolute;
+  width: 165px;
+  height: 155px;
+  left: calc(50% - 165px/2 + 90px);
+  top: 200px;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+}
+
